@@ -54,7 +54,7 @@ The models have not been validated against Simulink/PSCAD or measurements; the S
 
 ## Licence
 
-MIT (to be confirmed by the authors).
+MIT, see [LICENSE](LICENSE).
 
 ## Extensions added in the revised manuscript
 - `exact_sizing.py`, `exact_analyse.py`: sizing with the exact phasor network model inside the loop (section 4.6) and certification on 90 independent weeks; results in `results_exact/`.
