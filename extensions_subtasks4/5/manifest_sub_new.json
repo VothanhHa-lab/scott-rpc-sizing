@@ -1,0 +1,492 @@
+{
+ "line": "sub",
+ "case": "suburban",
+ "seed_base": 21221111,
+ "seed_base_formula": "SEED0+960000",
+ "SEED0": 20261111,
+ "n_weeks": 60,
+ "generator": "rpc_sizing.experiment.week_case(case, k, seed_base)",
+ "no_collision_with_seeds": "seed_of(case)+k (k<200, all 15 cases) and SEED0+900000+k (k<200)",
+ "weeks": [
+  {
+   "file": "sub_new_w000.npz",
+   "seed": 21221111,
+   "sha256": "956b3ed2aa035c98c92d4d9aa04b67502efa2410ae5905c657accbd2679a549c",
+   "n": 604800,
+   "mean_P_MW": 8.515775050486278,
+   "peak_S_MVA": 65.03448985531423
+  },
+  {
+   "file": "sub_new_w001.npz",
+   "seed": 21221112,
+   "sha256": "3324fcec5f8207baa7f6b54120bf90255e4fb3ca13b9d6a0f96fc21739d0b020",
+   "n": 604800,
+   "mean_P_MW": 8.542996377991525,
+   "peak_S_MVA": 64.30325222793766
+  },
+  {
+   "file": "sub_new_w002.npz",
+   "seed": 21221113,
+   "sha256": "0bf4591fc63fca0dd6dc736a312aa67c2fda8ca509632b7d694d1d8e7587b643",
+   "n": 604800,
+   "mean_P_MW": 8.513970511077812,
+   "peak_S_MVA": 68.59167402088784
+  },
+  {
+   "file": "sub_new_w003.npz",
+   "seed": 21221114,
+   "sha256": "97091f7eacc234e404f74aba014ec0133914ca3df333caaa2c85156a0821eed9",
+   "n": 604800,
+   "mean_P_MW": 8.510851432915386,
+   "peak_S_MVA": 64.73064503232078
+  },
+  {
+   "file": "sub_new_w004.npz",
+   "seed": 21221115,
+   "sha256": "f5da047603e769a41fd6e260c15dc6daaea90ae22ba879860af9c8772f22d035",
+   "n": 604800,
+   "mean_P_MW": 8.510308211592362,
+   "peak_S_MVA": 60.30999129895782
+  },
+  {
+   "file": "sub_new_w005.npz",
+   "seed": 21221116,
+   "sha256": "57df318deaf2d61b874e297f863da1fbc477ae7e17cd98b6dcd5e569eb863cb5",
+   "n": 604800,
+   "mean_P_MW": 8.507127739540143,
+   "peak_S_MVA": 65.78805065108435
+  },
+  {
+   "file": "sub_new_w006.npz",
+   "seed": 21221117,
+   "sha256": "264a6c7617df2bfaa33fd8cb399fad3f5fe1225a6ad6873c911a0184c3831713",
+   "n": 604800,
+   "mean_P_MW": 8.499096205296023,
+   "peak_S_MVA": 59.84462408908409
+  },
+  {
+   "file": "sub_new_w007.npz",
+   "seed": 21221118,
+   "sha256": "8ba800590bb1f967ca671c58fa2eade436733b1e1cc6667e16a7eba0c5a3153d",
+   "n": 604800,
+   "mean_P_MW": 8.525349124713959,
+   "peak_S_MVA": 64.7965318559504
+  },
+  {
+   "file": "sub_new_w008.npz",
+   "seed": 21221119,
+   "sha256": "c87a3208694c033a901afee112a0df8dd5c5542c9a7dcd898971de8879aaf435",
+   "n": 604800,
+   "mean_P_MW": 8.506973970968684,
+   "peak_S_MVA": 58.61255071726206
+  },
+  {
+   "file": "sub_new_w009.npz",
+   "seed": 21221120,
+   "sha256": "019b71c3aea65907bb2821d6ba3016e139e767a04699805d37cfd9d6c3fb1087",
+   "n": 604800,
+   "mean_P_MW": 8.506095861785383,
+   "peak_S_MVA": 63.03494821043485
+  },
+  {
+   "file": "sub_new_w010.npz",
+   "seed": 21221121,
+   "sha256": "d0621ae5addff2c277aa81cdfc56557a49a482287c80e33232d19c5a00eca197",
+   "n": 604800,
+   "mean_P_MW": 8.499942794220065,
+   "peak_S_MVA": 60.19644673928193
+  },
+  {
+   "file": "sub_new_w011.npz",
+   "seed": 21221122,
+   "sha256": "4ceb1e11e89c7e3edf27445dc63ab0438750b5bc528214e3f5ab81a85e7be7fc",
+   "n": 604800,
+   "mean_P_MW": 8.493031191369004,
+   "peak_S_MVA": 61.284648152967286
+  },
+  {
+   "file": "sub_new_w012.npz",
+   "seed": 21221123,
+   "sha256": "ae72e798f34d49761ed709ed396b12780f405ce1a4d7a1f9b62dd57fad92872d",
+   "n": 604800,
+   "mean_P_MW": 8.492523467899987,
+   "peak_S_MVA": 59.66517919532709
+  },
+  {
+   "file": "sub_new_w013.npz",
+   "seed": 21221124,
+   "sha256": "383536b5b4d21281670d31bc9f351ffb974b50d8ecee494bd5a580ed0e130533",
+   "n": 604800,
+   "mean_P_MW": 8.525712878168635,
+   "peak_S_MVA": 61.0654827129268
+  },
+  {
+   "file": "sub_new_w014.npz",
+   "seed": 21221125,
+   "sha256": "ef8e91e0b35d28c6f5cc330df854c51c49931d0b906061e5dd9bb8573ad95d7b",
+   "n": 604800,
+   "mean_P_MW": 8.527135065857314,
+   "peak_S_MVA": 60.59751060374077
+  },
+  {
+   "file": "sub_new_w015.npz",
+   "seed": 21221126,
+   "sha256": "3542e7115c03f7c228d0365bcbf12d537e210162b213394e29a0e9d85d91f50f",
+   "n": 604800,
+   "mean_P_MW": 8.503690075999426,
+   "peak_S_MVA": 60.650546604815496
+  },
+  {
+   "file": "sub_new_w016.npz",
+   "seed": 21221127,
+   "sha256": "9cf5a231e93cb4efb166a5123bab9af3481c19b3e18f00fd69812ffaba138348",
+   "n": 604800,
+   "mean_P_MW": 8.498255366385923,
+   "peak_S_MVA": 62.02459012935936
+  },
+  {
+   "file": "sub_new_w017.npz",
+   "seed": 21221128,
+   "sha256": "c974869a76ecc068be15bb14fb52208288bec88651a7100ddbfeda77f5cf3be5",
+   "n": 604800,
+   "mean_P_MW": 8.538743757469785,
+   "peak_S_MVA": 67.60069366150385
+  },
+  {
+   "file": "sub_new_w018.npz",
+   "seed": 21221129,
+   "sha256": "8c83656dee6d24b99d44e3381573529b03dce9686ff7ec9fb22e0bc2d47d4892",
+   "n": 604800,
+   "mean_P_MW": 8.517733750312736,
+   "peak_S_MVA": 62.68990541924145
+  },
+  {
+   "file": "sub_new_w019.npz",
+   "seed": 21221130,
+   "sha256": "d5297c25adb592161399d219bfda053665c53d5f0d815acc7eae2d94e0fa7bc9",
+   "n": 604800,
+   "mean_P_MW": 8.495270427518411,
+   "peak_S_MVA": 67.90709739047408
+  },
+  {
+   "file": "sub_new_w020.npz",
+   "seed": 21221131,
+   "sha256": "0b1ba4006f4f262751eac84fec06dd293f875e840c539c48d05671bac355af0b",
+   "n": 604800,
+   "mean_P_MW": 8.511786981940086,
+   "peak_S_MVA": 69.6702242323505
+  },
+  {
+   "file": "sub_new_w021.npz",
+   "seed": 21221132,
+   "sha256": "99d2062e4e76cf45b2bf71cc24cfb1323cd9e026a92afb52d05ac55f53cb0e0c",
+   "n": 604800,
+   "mean_P_MW": 8.483364825408975,
+   "peak_S_MVA": 64.45167659428704
+  },
+  {
+   "file": "sub_new_w022.npz",
+   "seed": 21221133,
+   "sha256": "40918cfaa599e495501b47a15d1efdf6e6284356d95bb0b2c4059d9912873171",
+   "n": 604800,
+   "mean_P_MW": 8.507194123209493,
+   "peak_S_MVA": 60.95368686124859
+  },
+  {
+   "file": "sub_new_w023.npz",
+   "seed": 21221134,
+   "sha256": "17d1dbd5f622e52b3203c0a7d1d17864226b4b126f507d9039e53fa8b100e593",
+   "n": 604800,
+   "mean_P_MW": 8.514240273085512,
+   "peak_S_MVA": 60.04344579925733
+  },
+  {
+   "file": "sub_new_w024.npz",
+   "seed": 21221135,
+   "sha256": "5f41d61589de1933589fb22390489da8bcdc0ab05ce5df741454984ba8be5942",
+   "n": 604800,
+   "mean_P_MW": 8.50173038562455,
+   "peak_S_MVA": 65.6160419457084
+  },
+  {
+   "file": "sub_new_w025.npz",
+   "seed": 21221136,
+   "sha256": "cfe2571c49ae31aecc5c4a0fb0438d2e3c3123f2893c0ec5537f4f12248d8a38",
+   "n": 604800,
+   "mean_P_MW": 8.508679993377447,
+   "peak_S_MVA": 66.28707396423673
+  },
+  {
+   "file": "sub_new_w026.npz",
+   "seed": 21221137,
+   "sha256": "67659022d482104809c34de62bac0ee61271ace013e6449371d4e9b30e3aaa0d",
+   "n": 604800,
+   "mean_P_MW": 8.519586369483244,
+   "peak_S_MVA": 64.68226795421698
+  },
+  {
+   "file": "sub_new_w027.npz",
+   "seed": 21221138,
+   "sha256": "e4f8825e55c5d8382452174b23342b7bf5ce1665fc265c3366c7dd1d9dfc37a9",
+   "n": 604800,
+   "mean_P_MW": 8.518254282078065,
+   "peak_S_MVA": 61.10903829554009
+  },
+  {
+   "file": "sub_new_w028.npz",
+   "seed": 21221139,
+   "sha256": "9aeb807f87b71475fc62b1d42b0794dd8e01470b60925edbf665ce3478fd6e57",
+   "n": 604800,
+   "mean_P_MW": 8.536845507403834,
+   "peak_S_MVA": 59.987566991650134
+  },
+  {
+   "file": "sub_new_w029.npz",
+   "seed": 21221140,
+   "sha256": "fca443786e8868e9572a49ef197e5907ce0eb9eddc647649529fee4b6e1df843",
+   "n": 604800,
+   "mean_P_MW": 8.501299927233791,
+   "peak_S_MVA": 67.1242463290254
+  },
+  {
+   "file": "sub_new_w030.npz",
+   "seed": 21221141,
+   "sha256": "5b9081b73c7ed7206ca6ccd6ac53c7fb0a2d9643b46e250663e07cddaf17ec0b",
+   "n": 604800,
+   "mean_P_MW": 8.49786082586385,
+   "peak_S_MVA": 60.17395932299347
+  },
+  {
+   "file": "sub_new_w031.npz",
+   "seed": 21221142,
+   "sha256": "ed420ef021500cf434334b1d026c7ba43b8474e344744bcf87cba7726b530c84",
+   "n": 604800,
+   "mean_P_MW": 8.493589940873784,
+   "peak_S_MVA": 62.565797956252204
+  },
+  {
+   "file": "sub_new_w032.npz",
+   "seed": 21221143,
+   "sha256": "6f3002b269ae36e4da16ff01b2a527ef4a41f7846dbdb8814c1bf23ad86e513f",
+   "n": 604800,
+   "mean_P_MW": 8.501393777667401,
+   "peak_S_MVA": 60.35560118625291
+  },
+  {
+   "file": "sub_new_w033.npz",
+   "seed": 21221144,
+   "sha256": "c035afff64f9cce17fcb9c3495e605f818cbe7169000bfeac345978b2ad5218f",
+   "n": 604800,
+   "mean_P_MW": 8.477807932983623,
+   "peak_S_MVA": 67.9461874801995
+  },
+  {
+   "file": "sub_new_w034.npz",
+   "seed": 21221145,
+   "sha256": "56cc0745ac905ce109c38309bb9f9d71d6c97372f7b9421581785458307d71bc",
+   "n": 604800,
+   "mean_P_MW": 8.524459526961557,
+   "peak_S_MVA": 66.62841978600851
+  },
+  {
+   "file": "sub_new_w035.npz",
+   "seed": 21221146,
+   "sha256": "666185d4f3aab3151c04d576d130615717219bc403769c0fecd93dd3d7fa530f",
+   "n": 604800,
+   "mean_P_MW": 8.50112039416168,
+   "peak_S_MVA": 63.73235744868428
+  },
+  {
+   "file": "sub_new_w036.npz",
+   "seed": 21221147,
+   "sha256": "d3fdf956ec1bbb5dca69e2316bc11badc676bc857b4dcd6154f16fcfc988789e",
+   "n": 604800,
+   "mean_P_MW": 8.511849685379152,
+   "peak_S_MVA": 65.0915860726115
+  },
+  {
+   "file": "sub_new_w037.npz",
+   "seed": 21221148,
+   "sha256": "fbb9e2f1d51644823c07214d6acc7b22010016613fc6dd7eba9bcd4c0b51ec11",
+   "n": 604800,
+   "mean_P_MW": 8.46039490615381,
+   "peak_S_MVA": 61.937758420971804
+  },
+  {
+   "file": "sub_new_w038.npz",
+   "seed": 21221149,
+   "sha256": "70ae2d5496f863cf0682e9f3bb9ea722ebe30da971a50a2bfbdc7f5942afc09d",
+   "n": 604800,
+   "mean_P_MW": 8.501472533347982,
+   "peak_S_MVA": 60.139076980072865
+  },
+  {
+   "file": "sub_new_w039.npz",
+   "seed": 21221150,
+   "sha256": "a5be61d854047b45d4a1e1ef84d7aacf724caf262b6f002daa63c92629795d5e",
+   "n": 604800,
+   "mean_P_MW": 8.51039425348117,
+   "peak_S_MVA": 61.38048508280177
+  },
+  {
+   "file": "sub_new_w040.npz",
+   "seed": 21221151,
+   "sha256": "74cf8ba497b57423212adb568c82f204e780629d21aa9505430701994d720123",
+   "n": 604800,
+   "mean_P_MW": 8.492132656767641,
+   "peak_S_MVA": 58.561390057079564
+  },
+  {
+   "file": "sub_new_w041.npz",
+   "seed": 21221152,
+   "sha256": "33d0489b8853e8738abf764523e96df7b87fbb6b3927c3986a73d3b3b4c10da7",
+   "n": 604800,
+   "mean_P_MW": 8.517422803116286,
+   "peak_S_MVA": 59.27471435507475
+  },
+  {
+   "file": "sub_new_w042.npz",
+   "seed": 21221153,
+   "sha256": "796d7da0212a37d1e47842d0c037d56da41a16ef6b64af501ad59d966c757ba8",
+   "n": 604800,
+   "mean_P_MW": 8.522545887570965,
+   "peak_S_MVA": 64.48276345083669
+  },
+  {
+   "file": "sub_new_w043.npz",
+   "seed": 21221154,
+   "sha256": "1f5fec30bf03cc60d1a92c65c66b70892d88ad00809b179ca1c19d180a5a23b4",
+   "n": 604800,
+   "mean_P_MW": 8.486628136150413,
+   "peak_S_MVA": 64.31029184894889
+  },
+  {
+   "file": "sub_new_w044.npz",
+   "seed": 21221155,
+   "sha256": "2dabd62bef9ec9069e00c557eb5fde644a470e318666f1f7ec2cf0d45fcdfea4",
+   "n": 604800,
+   "mean_P_MW": 8.48409810518172,
+   "peak_S_MVA": 58.7647571352378
+  },
+  {
+   "file": "sub_new_w045.npz",
+   "seed": 21221156,
+   "sha256": "168e24f349e235f9cbbd14ff287b811ce21e2bd5f1af39cb563e06f6aa5f2d42",
+   "n": 604800,
+   "mean_P_MW": 8.507096339978654,
+   "peak_S_MVA": 67.58762795897916
+  },
+  {
+   "file": "sub_new_w046.npz",
+   "seed": 21221157,
+   "sha256": "f17c02df5761e7c7c3185eeba77cab325fb5cd554ffd7c6da9fe792ce01981b4",
+   "n": 604800,
+   "mean_P_MW": 8.515989814349764,
+   "peak_S_MVA": 61.96190598797987
+  },
+  {
+   "file": "sub_new_w047.npz",
+   "seed": 21221158,
+   "sha256": "2619e756a4fcc361ed54164080a0d3954e08fceb528e8b50470e66aa50c8d0fb",
+   "n": 604800,
+   "mean_P_MW": 8.492750196785057,
+   "peak_S_MVA": 61.348316902353595
+  },
+  {
+   "file": "sub_new_w048.npz",
+   "seed": 21221159,
+   "sha256": "d4c083659bacc97bc7699086fd17961ba498a88cf220fee6a5b9ae5c3b3cfaf6",
+   "n": 604800,
+   "mean_P_MW": 8.507782669367199,
+   "peak_S_MVA": 61.56098053689728
+  },
+  {
+   "file": "sub_new_w049.npz",
+   "seed": 21221160,
+   "sha256": "6c87b1418bae9b7338df84300e88ca95432fcc490abdcb83d66c8c930cf56916",
+   "n": 604800,
+   "mean_P_MW": 8.484753033044798,
+   "peak_S_MVA": 62.99201568173257
+  },
+  {
+   "file": "sub_new_w050.npz",
+   "seed": 21221161,
+   "sha256": "564217718f7a5f8d4f67eae390d8d4d6420835e4ed7f52497448f639f0cdd37c",
+   "n": 604800,
+   "mean_P_MW": 8.514486713526086,
+   "peak_S_MVA": 64.40181449520546
+  },
+  {
+   "file": "sub_new_w051.npz",
+   "seed": 21221162,
+   "sha256": "944a2c996b74386ee2ea6cce9d7261d037bc3f43e83ef4f616618f4de4ad86a3",
+   "n": 604800,
+   "mean_P_MW": 8.477950862262395,
+   "peak_S_MVA": 71.94843104841625
+  },
+  {
+   "file": "sub_new_w052.npz",
+   "seed": 21221163,
+   "sha256": "71ac2207666543784d258be24d1ac1113c6298f2fd432f9d36257c2ddab7d429",
+   "n": 604800,
+   "mean_P_MW": 8.485357512024526,
+   "peak_S_MVA": 65.51063755481793
+  },
+  {
+   "file": "sub_new_w053.npz",
+   "seed": 21221164,
+   "sha256": "79d1239d15bdccf79dc7ea7d0175346bdbe7ceddab41ac711d1b3e205397eff7",
+   "n": 604800,
+   "mean_P_MW": 8.490645951302216,
+   "peak_S_MVA": 63.995564841682786
+  },
+  {
+   "file": "sub_new_w054.npz",
+   "seed": 21221165,
+   "sha256": "1ce35b5a469b2f8eb62e31e04fd21c6dbca57d5dd0f84f93717318370b4f21ea",
+   "n": 604800,
+   "mean_P_MW": 8.512427081710213,
+   "peak_S_MVA": 67.64488755644238
+  },
+  {
+   "file": "sub_new_w055.npz",
+   "seed": 21221166,
+   "sha256": "d948d8a486c64f463dc6967f913769da7d0dbb20747022008ec22371a75312ad",
+   "n": 604800,
+   "mean_P_MW": 8.487285811498086,
+   "peak_S_MVA": 65.14772863796932
+  },
+  {
+   "file": "sub_new_w056.npz",
+   "seed": 21221167,
+   "sha256": "2b33ba0e812ae1bff8f52f9b53db8e33e6b5cafbd2a8727738745999845eb3a0",
+   "n": 604800,
+   "mean_P_MW": 8.501970063726953,
+   "peak_S_MVA": 66.79050969738782
+  },
+  {
+   "file": "sub_new_w057.npz",
+   "seed": 21221168,
+   "sha256": "18393be55858c4a5a0e497c2a3d17a7e87ed5653fe84c66ba3e785b09ee7a151",
+   "n": 604800,
+   "mean_P_MW": 8.493654921406295,
+   "peak_S_MVA": 70.83642076881948
+  },
+  {
+   "file": "sub_new_w058.npz",
+   "seed": 21221169,
+   "sha256": "a167b63ca79ca8cdbee546d174d4a47b47ae9b2c876d66408ec60098e6ef7708",
+   "n": 604800,
+   "mean_P_MW": 8.50607058950197,
+   "peak_S_MVA": 70.08883184907552
+  },
+  {
+   "file": "sub_new_w059.npz",
+   "seed": 21221170,
+   "sha256": "e8c72dfe8262550e1adf8b9e69a3228d1919de885884321f38d62ee358572bdc",
+   "n": 604800,
+   "mean_P_MW": 8.494268588174307,
+   "peak_S_MVA": 59.896954550947584
+  }
+ ]
+}

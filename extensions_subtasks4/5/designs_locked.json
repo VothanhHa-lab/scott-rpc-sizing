@@ -1,0 +1,55 @@
+{
+ "utc": "2026-11-16T08:36:59.081470Z",
+ "lines": {
+  "hs": {
+   "design_i": {
+    "eps": 1.9,
+    "C": 11.825103356680708,
+    "J_design": 575.9940510283385,
+    "n_comply_design": 57
+   },
+   "design_ii": {
+    "eps": 1.9,
+    "C": 13.25,
+    "J_design": 558.2138753017634,
+    "n_comply_design": 60
+   },
+   "design_iii": {
+    "eps": 1.0,
+    "C": 11.270562480978487,
+    "J_design": 489.340214788009,
+    "n_comply_design": 60
+   }
+  },
+  "sub": {
+   "design_i": {
+    "eps": 1.9,
+    "C": 8.913275471050852,
+    "J_design": 474.7559352607981,
+    "n_comply_design": 38
+   },
+   "design_ii": {
+    "eps": 1.9,
+    "C": 10.5,
+    "J_design": 448.6993105332188,
+    "n_comply_design": 40
+   },
+   "design_iii": {
+    "eps": 0.75,
+    "C": 8.895549822770926,
+    "J_design": 406.9999557955723,
+    "n_comply_design": 40
+   }
+  }
+ },
+ "sources": {
+  "hs": {
+   "file": "designs_hs.json",
+   "sha256": "2ba247dd238d1e404119f019d97a20b066faf1ac21f126cda65287e60488efa1"
+  },
+  "sub": {
+   "file": "designs_sub.json",
+   "sha256": "37dc44c75af2e5f6106c816237234da4b30bea30d1fcb25d2476efee0d72d817"
+  }
+ }
+}
